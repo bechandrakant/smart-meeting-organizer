@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { Suspense, lazy } from "react";
+import {
+  BrowserRouter, Route, Routes
+} from "react-router-dom";
+import './App.scss';
+
+const Home = lazy(() => import('./pages/Home/Home'));
+const AddMeeting = lazy(() => import('./pages/AddMeeting/AddMeeting'));
+const SelectRooms = lazy(() => import('./pages/SelectRooms/SelectRooms'));
+const ErrorPage = lazy(() => import('./pages/ErrorPage/ErrorPage'));
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <BrowserRouter>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/add-meeting" element={<AddMeeting />} />
+          <Route path="/select-rooms" element={<SelectRooms />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+      </Suspense>
+    </BrowserRouter>
+    </>
   );
 }
 
