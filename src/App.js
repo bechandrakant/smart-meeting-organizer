@@ -1,6 +1,6 @@
 import { Suspense, lazy } from "react";
 import {
-  BrowserRouter, Route, Routes
+  HashRouter, Route, Routes
 } from "react-router-dom";
 import './App.scss';
 
@@ -12,7 +12,7 @@ const ErrorPage = lazy(() => import('./pages/ErrorPage/ErrorPage'));
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Suspense>
-    </BrowserRouter>
+    </HashRouter>
     </>
   );
 }
