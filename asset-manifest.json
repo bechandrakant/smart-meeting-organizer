@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/smart-meeting-organizer/static/css/main.e6bccc85.css",
+    "main.js": "/smart-meeting-organizer/static/js/main.83b8f29a.js",
+    "static/css/131.739d9f1e.chunk.css": "/smart-meeting-organizer/static/css/131.739d9f1e.chunk.css",
+    "static/js/131.f47e6f2f.chunk.js": "/smart-meeting-organizer/static/js/131.f47e6f2f.chunk.js",
+    "static/css/740.a4d7c62e.chunk.css": "/smart-meeting-organizer/static/css/740.a4d7c62e.chunk.css",
+    "static/js/740.935ff2a7.chunk.js": "/smart-meeting-organizer/static/js/740.935ff2a7.chunk.js",
+    "static/css/58.05b99c87.chunk.css": "/smart-meeting-organizer/static/css/58.05b99c87.chunk.css",
+    "static/js/58.f49fedfe.chunk.js": "/smart-meeting-organizer/static/js/58.f49fedfe.chunk.js",
+    "static/js/219.3c0a0a45.chunk.js": "/smart-meeting-organizer/static/js/219.3c0a0a45.chunk.js",
+    "static/js/201.8f89e3fd.chunk.js": "/smart-meeting-organizer/static/js/201.8f89e3fd.chunk.js",
+    "static/js/426.66bd535e.chunk.js": "/smart-meeting-organizer/static/js/426.66bd535e.chunk.js",
+    "index.html": "/smart-meeting-organizer/index.html",
+    "main.e6bccc85.css.map": "/smart-meeting-organizer/static/css/main.e6bccc85.css.map",
+    "main.83b8f29a.js.map": "/smart-meeting-organizer/static/js/main.83b8f29a.js.map",
+    "131.739d9f1e.chunk.css.map": "/smart-meeting-organizer/static/css/131.739d9f1e.chunk.css.map",
+    "131.f47e6f2f.chunk.js.map": "/smart-meeting-organizer/static/js/131.f47e6f2f.chunk.js.map",
+    "740.a4d7c62e.chunk.css.map": "/smart-meeting-organizer/static/css/740.a4d7c62e.chunk.css.map",
+    "740.935ff2a7.chunk.js.map": "/smart-meeting-organizer/static/js/740.935ff2a7.chunk.js.map",
+    "58.05b99c87.chunk.css.map": "/smart-meeting-organizer/static/css/58.05b99c87.chunk.css.map",
+    "58.f49fedfe.chunk.js.map": "/smart-meeting-organizer/static/js/58.f49fedfe.chunk.js.map",
+    "219.3c0a0a45.chunk.js.map": "/smart-meeting-organizer/static/js/219.3c0a0a45.chunk.js.map",
+    "201.8f89e3fd.chunk.js.map": "/smart-meeting-organizer/static/js/201.8f89e3fd.chunk.js.map",
+    "426.66bd535e.chunk.js.map": "/smart-meeting-organizer/static/js/426.66bd535e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6bccc85.css",
+    "static/js/main.83b8f29a.js"
+  ]
+}
